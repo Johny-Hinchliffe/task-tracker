@@ -1,1 +1,7 @@
-<html>
+npm run build || Makes a build version of the
+serve -s build -p 8000
+
+
+npm i json-server
+
+"server": "json-server --watch db.json --port 5000"
